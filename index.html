@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style>
+            body {
+    background-image: url('bgimage.jpg');}
+iframe {
+    margin-left:390px;
+    margin-top:-600px
+}
+
+.imgg {
+    margin-top: 5px;
+    width:400px;
+    height:600px;
+    margin-left:10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width:100%;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+        </style>
+    </head>
+    <body>
+            <div class="topnav">
+                 <a class="active" href="about.html" target="i_frame"><i class='fas fa-book-reader' style='font-size:20px;color:white'></i>  About Me</a>
+                    <a class="active" href="resume.html" target="i_frame"><i class='fas fa-graduation-cap' style='font-size:20px;color:white'></i>  Resume</a>
+                    <a class="active" href="contact.html" target="i_frame"><i class='fas fa-phone-alt' style='font-size:20px;color:white'></i>  Contact</a>
+                  </div>
+            <div class="imgg">
+                <br><br><br>
+                    <img src="myimage.jpg" alt="My Image" height="490px" width="360px" class="center"><br>
+             </div>
+             <iframe src="about.html" height="600" width="70%" name="i_frame"></iframe>
+        
+    </body>
+</html>
